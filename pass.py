@@ -31,7 +31,7 @@ def password_strength(password):
 
 while True:
     password = input("(q to quit) Enter your password: ")
-    if password == "q":
+    if password == "q" or password == "Q":
         break
     strength = password_strength(password)
     print("--------------------------------")
