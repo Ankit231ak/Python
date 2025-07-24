@@ -46,7 +46,7 @@ def main():
             except (IndexError, ValueError):
                 print("❌ Invalid task number.")
         elif choice == "4":
-            print("👋 Goodbye!")
+            print("Thank you")
             break
         else:
             print("❌ Invalid choice.")
